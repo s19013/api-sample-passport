@@ -40,6 +40,12 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        // apiの設定
+        'api' => [
+            'driber'   => 'passport',
+            'provider' => 'users',
+            'hash'     => false
+        ]
     ],
 
     /*
